@@ -410,6 +410,50 @@ header#main-header .main-header-wrap .ak-navigation span:last-child {
 ======================= Services Style Sheet =====================
 ==============================================================*/
 /*==============================================================
+======================= How Work Style Sheet =====================
+==============================================================*/
+.ak-work-progress-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+span.work-progress-icon {
+	transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
+	-webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
+	-moz-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
+	-o-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.work-progress-icon img {
+  transform: scale(1.2);
+}
+.ak-work-progress-items {
+    width: calc(33.33% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+	margin-bottom: 30px;
+}
+.work-progress-title h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.work-progress-content p {
+  font-size: 15px;
+  line-height: 23px;
+}
+@media only screen and (max-width: 1199px) {}
+@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 767px) {}
+/*==============================================================
+======================= How Work Style Sheet =====================
+==============================================================*/
+/*==============================================================
 ======================= Header Style Sheet =====================
 ==============================================================*/
 @media only screen and (max-width: 1199px) {}
@@ -419,20 +463,71 @@ header#main-header .main-header-wrap .ak-navigation span:last-child {
 ======================= Header Style Sheet =====================
 ==============================================================*/
 /*==============================================================
-======================= Header Style Sheet =====================
+======================= Contact Style Sheet =====================
 ==============================================================*/
+.ak-contact-me-wrapper {
+    max-width: 760px;
+    margin: auto;
+}
+.contact-form-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-form-items {
+    flex-basis: 50%;
+    width: 50%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.contact-form-items input, .contact-form-items textarea {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid #253069;
+    padding: 10px;
+    color: #253069;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+}
+.contact-form-items input::placeholder, 
+.contact-form-items textarea::placeholder {
+    color: #253069;
+}
+.contact-form-items input:focus, 
+.contact-form-items textarea:focus {
+    border: 2px solid rgba(240,16,110,1);
+}
+.contact-form-items.message-area {
+    flex-basis: 100%;
+}
+.contact-form-items.message-area textarea {
+    height: 200px;
+}
+.contact-form-btn button {
+    height: 48px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    border: 2px solid #253069;
+    background-color: #253069;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+.contact-form-btn {
+    width: 100%;
+    text-align: center;
+}
+.contact-form-btn button:hover {
+    background-color: transparent;
+    color: #253069;
+}
 @media only screen and (max-width: 1199px) {}
 @media only screen and (max-width: 991px) {}
 @media only screen and (max-width: 767px) {}
 /*==============================================================
-======================= Header Style Sheet =====================
-==============================================================*/
-/*==============================================================
-======================= Header Style Sheet =====================
-==============================================================*/
-@media only screen and (max-width: 1199px) {}
-@media only screen and (max-width: 991px) {}
-@media only screen and (max-width: 767px) {}
-/*==============================================================
-======================= Header Style Sheet =====================
+======================= Contact Style Sheet =====================
 ==============================================================*/

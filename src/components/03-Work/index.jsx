@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
+import ask from '../../assets/images/icon-talk.png';
+import askgif from '../../assets/images/icon-talk.gif';
+import think from '../../assets/images/icon-think.png';
+import thinkgif from '../../assets/images/icon-think.gif';
+import design from '../../assets/images/icon-design.png';
+import designgif from '../../assets/images/icon-design.gif';
+import develop from '../../assets/images/icon-develop.png';
+import developgif from '../../assets/images/icon-develop.gif';
+import deploy from '../../assets/images/icon-deploy.png';
+import deploygif from '../../assets/images/icon-deploy.gif';
+import support from '../../assets/images/icon-support.png';
+import supportgif from '../../assets/images/icon-support.gif';
 
 import WDID from './../../components/02-WDID/index';
 
 class Home extends Component {
     render() {
       return(
-          <div classNamE="ak-work-section">
+          <div className="ak-work-section">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -17,7 +29,7 @@ class Home extends Component {
                             <div className="ak-work-progress-items">
                                 <div className="ak-work-progress-inner text-center">
                                     <span className="work-progress-icon">
-                                        {/* <img data-alt-src="https://abdulkader.me/wp-content/uploads/2020/04/icon-talk.gif" src="https://abdulkader.me/wp-content/uploads/2020/04/icon-talk.png" alt=""> */}
+                                        <img data-alt-src={askgif} src={ask} alt="Ask" />
                                     </span>
                                     <div className="work-progress-title">
                                         <h3><sup>1</sup>Ask</h3>
@@ -30,7 +42,7 @@ class Home extends Component {
                             <div className="ak-work-progress-items">
                                 <div className="ak-work-progress-inner text-center">
                                     <span className="work-progress-icon">
-                                        {/* <img data-alt-src="https://abdulkader.me/wp-content/uploads/2020/04/icon-think.gif" src="https://abdulkader.me/wp-content/uploads/2020/04/icon-think.png" alt=""> */}
+                                        <img data-alt-src={thinkgif} src={think} alt="Think" />
                                     </span>
                                     <div className="work-progress-title">
                                         <h3><sup>2</sup>Think</h3>
@@ -43,7 +55,7 @@ class Home extends Component {
                             <div className="ak-work-progress-items">
                                 <div className="ak-work-progress-inner text-center">
                                     <span className="work-progress-icon">
-                                        {/* <img data-alt-src="https://abdulkader.me/wp-content/uploads/2020/04/icon-design.gif" src="https://abdulkader.me/wp-content/uploads/2020/04/icon-design.png" alt=""> */}
+                                        <img data-alt-src={designgif} src={design} alt="Design" />
                                     </span>
                                     <div className="work-progress-title">
                                         <h3><sup>3</sup>Design</h3>
@@ -56,7 +68,7 @@ class Home extends Component {
                             <div className="ak-work-progress-items">
                                 <div className="ak-work-progress-inner text-center">
                                     <span className="work-progress-icon">
-                                        {/* <img data-alt-src="https://abdulkader.me/wp-content/uploads/2020/04/icon-develop.gif" src="https://abdulkader.me/wp-content/uploads/2020/04/icon-develop.png" alt=""> */}
+                                        <img data-alt-src={developgif} src={develop} alt="Develop" />
                                     </span>
                                     <div className="work-progress-title">
                                         <h3><sup>4</sup>Develop</h3>
@@ -69,7 +81,7 @@ class Home extends Component {
                             <div className="ak-work-progress-items">
                                 <div className="ak-work-progress-inner text-center">
                                     <span className="work-progress-icon">
-                                        {/* <img data-alt-src="https://abdulkader.me/wp-content/uploads/2020/04/icon-deploy.gif" src="https://abdulkader.me/wp-content/uploads/2020/04/icon-deploy.png" alt=""> */}
+                                        <img data-alt-src={deploygif} src={deploy} alt="Deploy" />
                                     </span>
                                     <div className="work-progress-title">
                                         <h3><sup>5</sup>Deploy</h3>
@@ -82,7 +94,7 @@ class Home extends Component {
                             <div className="ak-work-progress-items">
                                 <div className="ak-work-progress-inner text-center">
                                     <span className="work-progress-icon">
-                                        {/* <img data-alt-src="https://abdulkader.me/wp-content/uploads/2020/04/icon-support.gif" src="https://abdulkader.me/wp-content/uploads/2020/04/icon-support.png" alt=""> */}
+                                        <img data-alt-src={supportgif} src={support} alt="Support" />
                                     </span>
                                     <div className="work-progress-title">
                                         <h3><sup>6</sup>Support</h3>
